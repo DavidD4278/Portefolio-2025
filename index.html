@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Delahaye - Mon Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="stars-canvas"></canvas>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#accueil">David Delahaye</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-label="Menu de navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#accueil">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#a-propos">À propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiences">Expériences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projets">Projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="accueil" class="d-flex align-items-center section-animated">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="intro-section text-center">
+                <div class="profile-image-container mb-3">
+                  <img
+                    src="./img/profile.jpg"
+                    alt="David Delahaye"
+                    class="profile-image"
+                  />
+                </div>
+                <h1 class="nom-hero mb-1">David Delahaye</h1>
+                <h2 class="sous-titre mb-3">Développeur Web & Créatif</h2>
+                <p class="accroche">
+                  Passionné par la création d'expériences numériques modernes,
+                  élégantes et performantes.
+                  <br> je suis également le fondateur et le gérant de la société  M&D Cré@tions: <br> 
+                  <img src="./img/LOGO M&Dcrétions2.gif"> </p>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="a-propos" class="d-flex align-items-center section-animated">
+        <div class="container">
+          <h2 class="text-center text-primary mb-4">À propos de moi</h2>
+          <div class="row">
+            <div class="col-md-6">
+            
+              <h3>Mes compétences</h3>
+              <ul class="list-unstyled">
+                <li>
+                  <i class="bi bi-check-circle-fill text-warning"></i> HTML5 &
+                  CSS3
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill text-warning"></i>
+                  JavaScript
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill text-warning"></i>
+                  Développement web responsive
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill text-warning"></i> Création
+                  d'interfaces utilisateur
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill text-warning"></i> WordPress
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill text-warning"></i> Peinture & Dessin
+                </li>
+                 <li>
+                  <i class="bi bi-check-circle-fill text-warning"></i> Littérature & Ecriture 
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h4 class="moi text-primary">Mon profil </h4>
+              <div class="card bg-transparent border-light text-white mb-3">
+                <div class="card-body">
+                
+                  <p> Passionné par l’art sous toutes ses formes, je puise mon inspiration aussi bien dans l’univers de Dali, Picasso ou Klimt, que dans les mangas, les bandes dessinées ou le 7ᵉ art. Du cinéma classique à la Nouvelle Vague, en passant par les films de série Z, j'aime explorer tous les horizons créatifs.
+
+                    Cette sensibilité artistique m’a naturellement conduit vers l’écriture, le dessin et la peinture, avant de découvrir une nouvelle passion : le code informatique. Une révélation qui m’a poussé à créer M&D Cré@tions, une société spécialisée dans la création de sites internet accessibles, personnalisés et humains.
+                    
+                    Dans cette aventure, je suis accompagné par Marine DEROSE, collègue de formation et amie, qui m’apporte son regard artistique et son expertise en design.
+                    
+                    Aujourd’hui, je conjugue créativité et technologie pour concevoir des sites uniques, au service des projets de mes clients.
+                 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="wave-separator">
+        <svg
+          viewBox="0 0 1440 80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z"
+            fill="#0d1b2a"
+          />
+        </svg>
+      </div>
+
+      <section
+        id="experiences"
+        class="d-flex align-items-center section-animated"
+      >
+        <div class="container">
+          <h2 class="text-center text-primary mb-4">Mes expériences</h2>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="card bg-transparent text-white-h-100">
+                <div class="card-body text-white">
+                  <h3>Avant 2024 </h3>
+                  <p> 2023 : Formation Developpeur-web/web mobile  </p>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i> Stages d'application pour création <br> de sites internet
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i>
+                      Développement d'applications web
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i> Intégration
+                      de designs modernes
+                    </li>
+                  </ul>
+                  <p> 2016 à 2019 :Assistant de vie aux familles</p>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i>2020 :  ADVF en CESU pour le compte d'un particulier à Pérols. 
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i> 2017 : Formation ADVF à La Ligue de l'Enseignement à Sète (34)
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i>
+                      2016 à 2019 : ADVF pour le compte de la société Dôme Services à Pérols (34)
+                    </li>
+                 </ul>
+                 <p>  2013 à 2023 : Animations commerciale </p>
+                 <ul class="list-unstyled">
+                   
+                   <li>
+                     <i class="bi bi-arrow-right text-warning"></i>
+                     Présentation produit/dégustation de divers  alimentaires ou autres pour le compte de plusieurs enseignes commerciales (Carrefour, Auchan, etc)
+                   </li>
+                   <li>
+                     <i class="bi bi-arrow-right text-warning"></i>
+                     2023 : Ambassadeur Google pour la présentation de la TinyHouse dans plusieurs départements en IDF et province. 
+                   </li>
+                   
+                </ul>
+                </div>
+       
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card bg-transparent text-white h-100">
+                <div class="card-body">
+                  <h3>Projets Personnels</h3>
+                  <p>2025 : Création de ma société Agence WEB M&D Cré@tions <img class="logo" src="./img/logomd.png"></p>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i>
+                      Développement de ma société 
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i> Auto-formation sur les nouvelles technologies 
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right text-warning"></i>
+                      Apprentissage de nouvelles technologies
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projets" class="d-flex align-items-center section-animated">
+        <div class="container">
+          <h2 class="text-center text-white mb-4">Mes Projets</h2>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="card bg-transparent text-white h-100">
+                <div class="card-body">
+                  <h3>Portfolio Personnel</h3>
+                  <p>
+                    Un site web personnel présentant mes compétences et projets
+                  </p>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="bi bi-code-slash text-warning"></i> HTML5 & CSS3
+                    </li>
+                    <li>
+                      <i class="bi bi-phone text-warning"></i> Design responsive
+                    </li>
+                    <li>
+                      <i class="bi bi-palette text-warning"></i> Interface
+                      moderne
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card bg-transparent text-white h-100">
+                <div class="card-body">
+                  <h3>Site Web pour Amis</h3>
+                  <p>Création d'un site web pour un ami</p>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="bi bi-pencil-square text-warning"></i> Design
+                      personnalisé
+                    </li>
+                    <li>
+                      <i class="bi bi-phone text-warning"></i> Optimisation pour
+                      mobile
+                    </li>
+                    <li>
+                      <i class="bi bi-input-cursor-text text-warning"></i>
+                      Intégration de formulaires
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="d-flex align-items-center section-animated">
+        <div class="container">
+          <h2 class="text-center mb-4">Contactez-moi pour en savoir plus!</h2>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <form class="contact-form">
+                <div class=" bg-transparent">
+                  <label for="nom" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="nom" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="sujet" class="form-label">Sujet</label>
+                  <input type="text" class="form-control" id="sujet" required />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning">Envoyer</button>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <div class="card bg-transparent text-white">
+                <div class="card-body">
+                  <h3>Autres moyens de contact</h3>
+                  <p>
+                    <i class="bi bi-envelope text-warning"></i>
+                    david.delahaye06@gmail.com
+                  </p>
+                  <p>
+                    <i class="bi bi-linkedin text-warning"></i>
+                    https://www.linkedin.com/feed/
+                  </p>
+                  <p>
+                    <i class="bi bi-github text-warning"></i>
+                    https://github.com/
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center py-3">
+      <p class="mb-0">  © David Delahaye Mon Portfolio * 2025</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Animation fade-in des sections au scroll
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll(".section-animated");
+        const observer = new window.IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.15 }
+        );
+        sections.forEach((section) => observer.observe(section));
+      });
+
+      // Etoiles animées en fond
+      function randomBetween(a, b) {
+        return a + Math.random() * (b - a);
+      }
+      function createStars(num, w, h) {
+        const stars = [];
+        for (let i = 0; i < num; i++) {
+          stars.push({
+            x: Math.random() * w,
+            y: Math.random() * h,
+            r: randomBetween(0.3, 1.2),
+            speed: randomBetween(0.02, 0.08),
+            alpha: randomBetween(0.5, 1),
+          });
+        }
+        return stars;
+      }
+      function animateStars() {
+        const canvas = document.getElementById("stars-canvas");
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        let w = window.innerWidth;
+        let h = window.innerHeight;
+        canvas.width = w;
+        canvas.height = h;
+        let stars = createStars(180, w, h);
+        function draw() {
+          ctx.clearRect(0, 0, w, h);
+          for (let s of stars) {
+            ctx.save();
+            ctx.globalAlpha = s.alpha;
+            ctx.beginPath();
+            ctx.arc(s.x, s.y, s.r, 0, 2 * Math.PI);
+            ctx.fillStyle = "#fff";
+            ctx.shadowColor = "#fff";
+            ctx.shadowBlur = 8;
+            ctx.fill();
+            ctx.restore();
+            s.y += s.speed;
+            if (s.y > h) {
+              s.x = Math.random() * w;
+              s.y = 0;
+              s.r = randomBetween(0.3, 1.2);
+              s.speed = randomBetween(0.02, 0.08);
+              s.alpha = randomBetween(0.5, 1);
+            }
+          }
+          requestAnimationFrame(draw);
+        }
+        draw();
+        window.addEventListener("resize", () => {
+          w = window.innerWidth;
+          h = window.innerHeight;
+          canvas.width = w;
+          canvas.height = h;
+          stars = createStars(180, w, h);
+        });
+      }
+      animateStars();
+
+      // Parallax sur le fond galaxie
+      window.addEventListener("scroll", function () {
+        const scrolled = window.scrollY;
+        document.body.style.backgroundPosition = `center ${-scrolled * 0.2}px`;
+      });
+    </script>
+  </body>
+</html> 
